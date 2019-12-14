@@ -1,0 +1,29 @@
+name: map_mapbox
+description: A Dart implementation of Leaflet for Flutter apps
+version: 0.0.1
+authors:
+- Bleker <bleker@raasdo.com>
+homepage: https://github.com/Blekercm/map_mapbox
+
+environment:
+  sdk: ">=2.2.2 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  tuple: any
+  latlong: any
+  positioned_tap_detector: any
+  transparent_image: any
+  async: any
+  flutter_image: any
+  cached_network_image: any
+  sqflite: any
+  path_provider: any
+  vector_math: any
+
+dev_dependencies:
+  pedantic: any
+  flutter_test:
+    sdk: flutter
+  test: ^1.6.1
